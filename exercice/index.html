@@ -21,6 +21,9 @@
     <![endif]-->
 
   <style type="text/css">
+  .btn-primary, .btn, .fa, .fa-twitter {
+    border-radius: 100%;
+  }
     header {
       height: 150px;
       display: flex;
@@ -29,9 +32,8 @@
 
     footer {
       width: 100%;
-      display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      padding: 15px;
     }
 
     /* Styles de base */
@@ -81,15 +83,15 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <header class="row">
 
-      <div class="col-lg-3 col-md-3 col-sm-3">
+      <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
         <a href="#">
           <img src="assets/img/maison.png" alt="logo">
         </a>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
         <h1>La maison de l'architecte</h1>
       </div>
 
